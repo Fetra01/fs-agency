@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect, Route, Switch } from 'react-router';
+import { Redirect, Route, Switch, } from 'react-router';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import { Project1, Project2, Project3, Project4 } from './pages/Projects';
@@ -7,7 +7,7 @@ import { Project1, Project2, Project3, Project4 } from './pages/Projects';
 
 function App() {
   return (
-    <Switch>
+    <Switch >
       <Route exact path="/" component={Home} />
       <Route exact path="/projet-1" component={Project1} />
       <Route exact path="/projet-2" component={Project2} />
